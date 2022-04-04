@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index31.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b4906ba0c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        *
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 24px; */
+}
+body
+{
+    background-color: whitesmoke;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2d2d38;
+    width: 100vw;
+    height: 110px;
+    display: flex;
+}
+
+.logo
+{
+    /* display: flex; */
+    margin-right: 33px;
+}
+.name
+{
+    font-size: 35px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 6px;
+    margin-left: 110px;
+}
+.name > span
+{
+    font-size: 35px;
+    color: #ff6e26;
+    font-family: sans-serif;
+}
+.logo > p
+{
+    color: rgb(255,255,255, 0.5);
+    font-size: 12px;
+    margin-left: 112px;
+}
+/* search bar style start */
+#search
+{
+    height: 32px;
+    margin-top: 12px;
+    width: 536px;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 8px;
+}
+/* search bar style end */
+/* search icon style */
+.i
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.country
+{
+    margin-top: 10px;
+}
+.country span
+{
+    display: flex;
+}
+.country img
+{
+    margin-right: 5px;
+    height: 15px;
+}
+.ship
+{
+    color : rgb(255,255,255, 0.5);
+    font-size: 12px;
+}
+.userInfo
+{
+    margin-top: 12px;
+}
+/* .i:hover + div
+{
+    content: '.menu';
+    display: block;
+} */
+
+.hello
+{
+    color : rgb(255,255,255, 0.5);
+    font-size: 12px;
+    display: inline-block;
+}
+.india
+{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#userName
+{
+    color: white;
+    font-size: 14px;
+}
+.menu
+{
+    width: 200px;
+    height: 200px;
+    border: 1px white solid;
+    display: none;
+    margin-left: -80px;
+    background-color: white;
+}
+.signIn
+{
+    background-color: #ff6e26;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.joinUs
+{
+    background-color: rgb(240, 190, 147);
+    text-align: center;
+    color: #ff6e26;
+    padding: 5px;
+    margin: 5px;
+}
+.sub-menu
+{
+    padding: 5px;
+    margin: 12px;
+}
+.sub-menu p
+{
+    color: grey;
+    /* text-align: center; */
+    margin-top: 5px;
+}
+.cart
+{
+    font-size: 34px;
+    color: white;
+    margin-top: 18px;
+    display: flex;
+    cursor: pointer;
+
+}
+.total-item
+{
+    font-size: 24px;
+    margin-top: -20px;
+    margin-left: -8px;
+    color: #ff6e26;
+    z-index: 1;
+}
+.categories
+{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.categories p
+{
+    margin-top: -30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+    #header{
+        width: 100%;
+        background-color: #2d2d38;
+        height: 130px;
+    }
+    .header_main_new{
+        height: 50px;
+    padding: 12px 0 10px;
+    background: #2d2d38;
+    
+    
+    
+    width: 100%;
+    }
+    .materialinfo:hover{
+        color:#FF6E26
+
+    }
+    .info:hover{
+        color: #FF6E26;
+    }
+    .header_main_new_1{
+        height: 100%;
+        width: 80%;
+        
+        margin: auto;
+        display: flex;
+
+        
+        
+    }.header_main_new_1>div{
+        width:24%;
+        margin-left: 12px;
+    }#small{
+        display: flex;
+        width:80%
+    }p{
+        margin: auto;
+        height: fit-content;
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+        color:#999999;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    p:hover{
+        color: orange;
+        text-decoration: underline;
+    }
+    img{
+        height: 20px;
+    }
+    .headerbottom:hover{
+        color: #FF6E26;
+        text-decoration: none;
+    }.brandimages>div>img{
+        height: 63px;
+        width: 100%;
+    }.inplabel>label{
+        color: #666666;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }.inplabel>input{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }.inplabel2>input{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        height: 18px;
+        width: 18px;
+    }.inplabel2>label{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: #666666;
+    }.inplabel3>input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 18px;
+        width: 18px;
+    }.inplabel>label{
+        margin-top:10px ;
+        margin-bottom: 5px;
+        color: #666666;
+    }.phead{
+        color: #ff4733;
+        font-size: 16px;
+    }.strick{
+        color: #666666;
+        text-decoration: line-through;
+    }.offs{
+        color: #666666;
+    }.pname{
+        color: #999999;
+        font-size: 13px;
+
+    }.pprice{
+        color: #999999;
+        font-size: 13px;
+    }
+    </style>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <h1 class="name">Ban<span>gg</span>ood</h1>
+                    <p>Global leading online shop</p>
+                </div>
+                <div>
+                    <span>
+                        <input type="text" placeholder="Search here" id="search">
+                        <i class="fa-solid fa-magnifying-glass i"></i>
+                    </span>
+                </div>
+                <div class="country">
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/206/206606.png" alt="Flag">
+                        <p class="ship">ship to</p>
+                    </span>
+                    <p class="ship india">INDIA</p>
+                </div>
+                <div class="userInfo">
+                    <i class="fa-solid fa-user i"></i>
+                    <p class="hello">Hello</p>
+                    <p id="userName">---</p>
+                    <div class="menu">
+                        <p class="signIn">Sign In</p>
+                        <p class="joinUs">Join us</p>
+                        <div class="sub-menu">
+                            <p>My Orders</p>
+                            <p>My Wishlist</p>
+                            <p>My Coupons</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div class="total">
+                        <p class="total-item"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="categories">
+                <p>Men's</p>
+                <p>Women's</p>
+                <p>Shoes's</p>
+                <p>Sports's</p>
+                <p>Electronics's</p>
+            </div>
+        </nav>
+    </header>
+       <div class="header_main_down" style="display: flex;">
+        <div style="width:25% ;padding-left: 40px;overflow-y: scroll;" class="list">
+            <h2>Related Categories</h2>
+            <dt style="font-family: OpenSans;" >Shoes & Bags</dt>
+            <p>Luggage & Bags</p>
+            <p>Men's Shoes</p>
+            <p >Men's Bags</p>
+            <p>Women's Shoes</p>
+            <p >Women's Bags</p>
+            <p >Women's Bags</p>
+            <p >Backpack</p>
+            <p>Wallets</p>
+            <p>Shoe Accessories</p>
+            <div class="title_active" style="font-size:20px;margin-top: 8px;margin-bottom: 8px;">
+              Brands
+              <i class="fa-regular fa-dash" style="width:10px"></i>
+            </div>
+            <div class="brandimages" style="height: 100px;display: grid;grid-template-rows: repeat(3,1fr);grid-template-columns: repeat(2,1fr);gap: 5px;" >
+            <div><img src="https://imgaz.staticbg.com/brands/20190923011444_909.jpg.webp" style="height: 30px;">
+            </div>
+            <div><img src="https://imgaz.staticbg.com/brands/20190716213854_877.jpg.webp" style="height: 30px"></div>
+            <div><img src="https://imgaz.staticbg.com/brands/20190718210547_813.jpg.webp" alt="" style="height: 30px;"></div>
+            <div><img src="https://imgaz.staticbg.com/brands/20190823032646_826.jpg.webp" alt="" style="height: 30px;"></div>
+            <div><img src="https://imgaz.staticbg.com/brands/20190708020809_984.jpg.webp" alt="" style="height: 30px;"></div>
+            <div><img src="https://imgaz.staticbg.com/brands/20220207005632_378.png.webp" alt="" style="height: 30px;"></div>
+            </div>
+            <div class="inplabel"><h2 style="height: 20px;line-height: 20px;font-size: 20px;" class="materialinfo">Color <i></i></h2>
+                <input type="checkbox" ><label for="" >BLACK</label><br>
+                <input type="checkbox" ><label for="" >BROWN</label><br>
+                <input type="checkbox" ><label for="" >GREY</label><br>
+                <input type="checkbox" ><label for="" >BLUE</label><br>
+                <input type="checkbox" ><label for="" >GREEN</label><br>
+                <p style="color: #0095FC; font-size: 14px;line-height: 17px;">See More</p>
+            </div>
+            <div class="inplabel2"><h2 style="height: 20px;line-height: 20px;font-size: 20px;" class="materialinfo">Outsole Material</h2>
+                <input type="checkbox" ><label for="" >RUBBER</label><br>
+                <input type="checkbox" ><label for="" >EVA</label><br>
+                <input type="checkbox" ><label for="" >PU</label><br>
+                <input type="checkbox" ><label for="" >PVC</label><br>
+                <input type="checkbox" ><label for="" >TPR</label><br>
+                <p style="color: #0095FC; font-size: 14px;line-height: 17px;">See More</p>
+            </div>
+            <div class="inplabel3"><h2 style="height: 20px;line-height: 20px;font-size: 20px;" class="materialinfo">Upper Material</h2>
+                <input type="checkbox" ><label for="" >PU</label><br>
+                <input type="checkbox" ><label for="" >MICRO CONTROLLER</label><br>
+                <input type="checkbox" ><label for="" >COWHIDE</label><br>
+                <input type="checkbox" ><label for="" >GENUINE LEATHER</label><br>
+                <input type="checkbox" ><label for="" >CLOTH</label><br>
+                <p style="color: #0095FC; font-size: 14px;line-height: 17px;">See More</p>
+            </div>
+        </div>
+        <div style="width: 80%;padding-top: 30px;padding-left: 30px;">
+        <span style="color:#333333;text-decoration: underline;margin-top: 20px;" id="Home">Home</span>
+        <span style="color:#999"> > </span>
+        <span>Shoes & Bags</span>
+        <div style="margin-top: 20px;margin-top: 20px;"><span>Price</span>
+        <input type="text" style="height: 25px;width: 52px;">
+         <input type="text" style="height: 25px;width: 52px;">
+         <div style="margin-top: 20px;"><span>Sort By</span>
+            <span style="height:30px ;width:317.164px;border-radius: 3px;margin-top: 5px;"><a href="javascript:;" style="height:30px;width:71px; box-sizing:border-box;padding-left: 12px;padding-right: 12px;color: #FF6E26;text-decoration: none;">Popular</a>
+                <a href="javascript:;" style="height:30px;width:71px; box-sizing:border-box;padding-left: 12px;color: #333333;text-decoration:none">Newest</a>
+                <a href="javascript:;" style="height:30px;width:71px; box-sizing:border-box;padding-left: 12px;padding-right: 12px;color: #333333;text-decoration: none;">Most Reviews</a>
+                <a href="javascript:;" style="height:30px;width:71px; box-sizing:border-box;padding-left: 12px;padding-right: 12px;color: #333333;text-decoration: none;">Price</a></span>
+                <div style="display: inline-block;height: 32px;width: 111.71px;">
+                    <span style="display: inline-block;width: 171px;height: 100%;">
+                      <em style="width: 18px;height:18px;border-radius: 4px;box-sizing: border-box;border:1px solid #FF6E26;color: white;">raja</em>
+                      Upgrade Deals
+                    </span>
+                    
+                </div>
+         
+
+        </div>
+        <div style="width: 100%;height: auto;display: grid;grid-template-columns: repeat(5,1fr);gap: 10px;height: 900px;" id="shoesbox"><div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/35/BE/9411588b-abb1-4306-9743-d09ed2aeb726.jpg.webp" alt="" style="height: 60%;width: 100%;">
+        <p style="color: #ff4733;font-size: 16px;">2479.39</p>
+        <span style="text-decoration: line-through;color: #666666;">3415.53</span>
+        <span style="color: #666666;">8% Off</span>
+        <p style="color:#999999;font-size: 13px;">Comfy Casual Business Genuine</p>
+        <p style="color:#999999;font-size: 13px;">33 Reviews</p>
+
+        </div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/A5/6E/ccf8a9c7-fa95-4feb-87dc-67ea669bd9b3.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">4661.71</p>
+            <span class="strick">4908.62</span>
+            <span  class="offs">54% Off</span>
+            <p  class="pname">Men Genuine Leather Soft Insole</p>
+            <p  class="pprice">98 Reviews</p></div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/10/7C/3926af55-f895-4db2-8c0f-a0a1bd0addbb.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">3080.11</p>
+            <span class="strick">4347.25</span>
+            <span class="offs">16% Off</span>
+            <p  class="pname">Men Large Size Comfy Casual</p>
+            <p  class="pprice">1424 Reviews</p></div>
+        <div><img src="https://imgaz1.staticbg.com/thumb/gallery/oaupload/banggood/images/FD/78/247cc5d2-c19b-4911-bb11-4b47d9f4b057.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">3775.80</p>
+            <span class="strick">4347.25</span>
+            <span class="offs">60% Off</span>
+            <p class="pname">Men Non Slip Outdoor Business</p>
+            <p class="pprice">167 Reviews</p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/3E/76/a30fa959-b577-412e-b05b-010c6884cc71.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p class="phead" >4272.72</p>
+            <span class="strick">12937.72</span>
+            <span class="offs">67% Off</span>
+            <p class="pname">>Menico Men Soft Hand Stitching</p>
+            <p class="pprice">446 Reviews</p></div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/05/57/0816fde2-75b4-478a-8cd4-83ebff0bb1f1.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p class="phead">₹4,965.30</p>
+            <span class="strick">₹10,034.635</span>
+            <span class="offs">51% Off</span>
+            <p class="pname">Men Microfiber Leather Vintage</p>
+            <p class="pprice">170reviews</p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/1B/33/797f0e07-8d57-4dc8-8172-929eeb16be77.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p class="phead">₹7,055.46</p>
+            <span class="strick">₹7,375.35</span>
+            <span class="offs"></span>
+            <p class="pname">Big Size Casual Oxfords Shoes</p>
+            <p class="offs">43reviews</p></div>
+        <div><img src="https://imgaz.staticbg.com/thumb/gallery/oaupload/banggood/images/D9/6F/a9eab44f-173a-4747-b475-8542f495e515.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p class="phead">₹4,661.71</p>
+            <span class="strick">₹10,034.635</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Genuine Leather Soft Insole</p>
+            <p class="offs">33 Reviews</p></div>
+        <div><img src="https://imgaz.staticbg.com/thumb/gallery/oaupload/banggood/images/96/BD/eb4af02b-354e-4d68-8ebc-4f7f2d45ffd8.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">54% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">98reviews
+            </p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/77/91/31916a1e-a4ab-4424-bcff-f3a74c303eb2.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">₹3,080.11</p>
+            <span class="strick" >₹3,648.46</span>
+            <span class="offs">16% Off</span>
+            <p class="pname">Men Large Size Comfy Casual</p>
+            <p class="pprice">1424reviews
+            </p></div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/0A/55/81d9b427-e3ab-4d19-82a0-448d5bb81abe.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz1.staticbg.com/thumb/gallery/oaupload/ser1/banggood/images/ED/98/fe9623a9-5f5d-485d-ba03-23d06888df0a.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/74/9E/13006a1e-bfc5-41cd-a707-1ba90d417f22.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/F6/44/b67748e3-f76d-48e0-bcc7-3bfb854f6ffe.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz.staticbg.com/thumb/gallery/oaupload/banggood/images/26/48/2fb3815e-1ca8-496d-8d2a-15cfa531cb8f.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/EF/1C/88b21ebd-5264-4a57-baac-deeec514d1e8.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/B4/6B/2c6ed95d-1e28-4a40-a2c7-d6f2de7fcb4a.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/B4/6B/2c6ed95d-1e28-4a40-a2c7-d6f2de7fcb4a.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/E3/4A/79529f0b-c33a-4aed-aada-2022b9a87c44.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz.staticbg.com/thumb/gallery/oaupload/banggood/images/22/71/3ddaaa0a-eb57-4410-8adc-2c476932e762.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/EB/6C/2584946b-3cc7-4002-9d5c-5a88745a37b3.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/BA/86/501cdde5-4fe9-43f7-9f5d-1b1cb800f4fb.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz1.staticbg.com/thumb/gallery/oaupload/banggood/images/BF/2D/eb6a01f2-0887-45c2-8919-c534e16e84e3.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz.staticbg.com/thumb/gallery/oaupload/banggood/images/2C/17/05bbcf1d-9913-4923-8661-7980566afb87.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz.staticbg.com/thumb/gallery/oaupload/banggood/images/9D/CF/df519d0c-9fe3-4b67-a4dd-30678830a10e.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz.staticbg.com/thumb/gallery/oaupload/banggood/images/B4/C6/6a1bc776-1dff-4bbb-8dea-f9672e7cb9a8.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/CD/24/02ac5191-0a30-4cfb-a240-d15e3dc0367f.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz1.staticbg.com/thumb/gallery/oaupload/banggood/images/97/5B/c9d6558e-ce3a-487d-baf8-c0458c0d69c0.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz3.staticbg.com/thumb/gallery/oaupload/banggood/images/92/03/dee11cbb-df73-4538-86f1-5c4087d6bed7.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div>
+        <div><img src="https://imgaz2.staticbg.com/thumb/gallery/oaupload/banggood/images/51/7C/cbeb601e-b531-4ef6-ab09-2138b9a34e3c.jpg.webp" alt="" style="height: 60%;width: 100%;">
+            <p  class="phead">2479.39</p>
+            <span class="strick">3415.53</span>
+            <span class="offs">18% Off</span>
+            <p class="pname">Men Microfiber Business Soft</p>
+            <p class="pprice">33 Reviews</p></div></div>
+        </div>
+
+        </div>
+
+        
+    </div>
+
+   </div> 
+</body>
+</html>
